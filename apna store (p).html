@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1df1d7b2e3.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        background-image: linear-gradient(red,white,green);
+        padding: 30px 30px ;
+        font-size: 200%;
+        color: blue;
+        border: 1px rgb(255,0,0) solid;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .menu{
+        
+        padding: 10px 50px;
+
+    }
+     .menu1 input{
+        height:60%;
+        /* padding: 10px 50px; */
+
+    }
+    .main{
+        border: 1px rgb(255,0,187);
+        padding: 0px;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .magnifying{
+        height: 65%;
+    }
+    .dropbtn {
+ 
+ color: rgb(55, 28, 224);
+ padding: 16px;
+ font-size: 16px;
+ border: none;
+}
+
+.dropdown input {
+ position: relative;
+ display: inline-block;
+}
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ min-width: 160px;
+}
+
+.dropdown-content a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="menu">ji apna store</div>
+            <div class="menu1">
+                <input type="text" title="Search for products" autocomplete="off" placeholder="Search for products" size="50px">
+                <button class="magnifying">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="menu">login</div>
+            <div class="dropdown">
+                <h1 class="dropbtn">Dropdown</h1>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            <div class="menu">cart</div>
+        </div>    
+    </div>
+    
+</body>
+</html>
